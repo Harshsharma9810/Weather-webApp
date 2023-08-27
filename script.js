@@ -40,7 +40,7 @@ async function checkWeather(city){
             weatherIcon.src = "./images/mist.png";
         }
         else if(data.weather[0].main == "Haze"){
-            weatherIcon.src = "/images/haze.png";
+            weatherIcon.src = "images/haze.png";
         }
        
         searchBox.value = "";
